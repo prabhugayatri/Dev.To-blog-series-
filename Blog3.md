@@ -1,1 +1,1 @@
-# Creating Microsoft Graph custom connector in Power Apps
+# Creating Microsoft Graph custom connector in Power Apps.
