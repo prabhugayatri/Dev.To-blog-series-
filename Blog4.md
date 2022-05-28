@@ -1,1 +1,1 @@
-# Automate a process using Power Automate.
+# Call Microsoft Graph API in Power Automate using custom connector.
