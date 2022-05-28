@@ -1,1 +1,1 @@
-# Create no code app in Power Apps.
+# Creating Microsoft Graph custom connector in Power Apps
