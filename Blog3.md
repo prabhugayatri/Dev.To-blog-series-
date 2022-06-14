@@ -1,5 +1,9 @@
 # Creating Microsoft Graph custom connector in Power Apps.
 
+![Welcome](https://user-images.githubusercontent.com/58803999/173579763-bd5ea067-4d35-4f75-89d6-fdd02192d11e.jpeg)
+
+Credit- http://m.alnafsy.com/
+
 ## What are Power Apps?
 * Power Apps is a **suite of apps, services, connectors, and a data platform**, that provides a rapid development environment to build custom apps for business needs. 
 * Using Power Apps, one can quickly **build custom business apps that connect to data stored** either **in the underlying data platform** (Microsoft Dataverse) or in various **online and on-premises data sources** (such as SharePoint, Microsoft 365, Dynamics 365, SQL Server). 
@@ -11,17 +15,15 @@
 * Microsoft Graph connectors work in the incoming direction, delivering data external to the Microsoft cloud into Microsoft Graph services and applications to enhance Microsoft 365 experiences such as Microsoft Search.
 * Microsoft Graph Data Connect provides a set of **tools to streamline secure and scalable delivery of Microsoft Graph data** to popular Azure data stores. The cached data serves as data sources for Azure development tools that you can use to build intelligent applications.
 
-![img1](https://user-images.githubusercontent.com/58803999/172055576-a3100eea-e65d-4e97-937d-606b5d0f55e1.png)
+![Microsoft Graph](https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png)
+
+Credits- https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png
 
 ## What are the uses of Microsoft Graph?
 One can use Microsoft Graph to:
 * Look at the next meeting and prepare for it by providing profile information for attendees, as well as information about the latest documents they're working on, and people they're collaborating with.
-* Scans one’s calendar, and suggests the best times for the next team meeting.
-* Fetch the latest sales projection chart from an Excel file in your OneDrive and update the forecast in real time, all from a phone.
-* Subscribe to changes in the calendar, send an alert when one spending too much time in meetings, and provide recommendations for the ones one can miss or delegate based on how relevant the attendees are to you.
-* Help one sort out personal and work information on a phone. For example, by categorizing pictures that should go to your personal OneDrive and business receipts that should go to your OneDrive for Business.
-* Analyze at-scale Microsoft 365 data so that decision makers can unlock valuable insights into time allocation and collaboration patterns that improve business productivity.
-* Bring custom business data into Microsoft Graph, indexing it to make it searchable along with data from Microsoft 365 services.
+* Scans one’s calendar, and suggests the best times for the next team meeting and subscribe to changes in the calendar, send an alert when one spending too much time in meetings, and provide recommendations for the ones one can miss or delegate based on how relevant the attendees are to you.
+* Help one sort out personal and work information on a phone. For example, by categorizing pictures that should go to your personal OneDrive and business receipts that should go to your OneDrive for Business and bring custom business data into Microsoft Graph, indexing it to make it searchable along with data from Microsoft 365 services.
 
 ## What are custom connectors?
 Connectors help make it easier for app and flow makers to connect to other apps, data, and devices in the cloud in the following ways:
@@ -30,13 +32,12 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 * Connectors can have triggers that allow automation to start when the triggering event occurs.
 
 ## Create a custom connector
-* Check the connector reference to determine if a suitable connector already exists for the API/service.
-* Manually edit the connector definition in the maker portal or by importing a definition in a supported format. This process includes identifying the authentication requirements for the API.
-* Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
-* Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
+![Steps](https://user-images.githubusercontent.com/58803999/173576451-fdc44814-9960-4fd1-b02e-1a208749e625.png)
 
 ## Prerequisites
-Willingness to learn. Are you ready? Let's go!
+An account on [Power Apps Portal](https://make.powerapps.com/).
+
+## Let's get started!
 
 **Step 1:** Create a new solution.
 1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
@@ -76,5 +77,5 @@ Willingness to learn. Are you ready? Let's go!
 
 [List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
 
-![2](https://user-images.githubusercontent.com/58803999/172188546-3b608b51-1d64-4719-a614-e84a3eda6db7.jpg)
-
+![Thank You](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
+Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
